@@ -1,0 +1,178 @@
+<div class="page" data-name="post-ad">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="container display-flex justify-content-space-between display-flex align-items-center" style="background: #f7f5ff;">
+          <div class="left">
+            <a href="#" class="link back">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>
+          </div>
+          <div class="title text-color-primary">Choose Ad Type</div>
+          <div class="right">
+            <!-- <a href="/" class="link"><i class="icon f7-icons">house</i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="container">
+        <div class="card card-expandable">
+          <div class="card-content">
+            <div class="bg-color-green" style="height: 40vh;">
+              <div class="card-header text-color-black display-block">
+                Framework7<br/>
+              </div>
+              <small style="opacity: .7;">Build Mobile Apps</small>
+              <a href="#" class="link card-close card-opened-fade-in color-black" style="position: absolute; right: 15px; top: 15px;">
+                <div class="icon f7-icons">multiple_circle_fill</div>
+              </a>
+              <div class="card-content-padding">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, provident dignissimos. Error, sit sapiente? Deleniti, autem, commodi corporis doloremque officia, 
+                odit totam tempore quia nostrum maxime dicta ab dignissimos voluptates?
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-expandable">
+          <div class="card-content">
+            <div class="bg-color-yellow" style="height: 40vh;">
+              <div class="card-header text-color-black display-block">
+                Framework7<br/>
+              </div>
+              <small style="opacity: .7;">Build Mobile Apps</small>
+              <a href="#" class="link card-close card-opened-fade-in color-black" style="position: absolute; right: 15px; top: 15px;">
+                <div class="icon f7-icons">multiple_circle_fill</div>
+              </a>
+              <div class="card-content-padding">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, provident dignissimos. Error, sit sapiente? Deleniti, autem, commodi corporis doloremque officia, 
+                odit totam tempore quia nostrum maxime dicta ab dignissimos voluptates?
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="card card-outline">
+          <div class="card-header">Ad Details</div>
+          <div class="card-content card-content-padding">
+            <form role="form" id="crud_ad">
+              <div class="list no-hairlines-md">
+              <ul>
+                <div class="row">
+                  <div class="col-100 small-50">
+                    <li>
+                      <a class="item-link smart-select smart-select-init" data-open-in="popover">                        
+                        <select name="main_cat"  id="main_cat" required validate>
+                          <option value="Batman" selected>Property</option>
+                          <option value="Superman">Jobs</option>
+                          <option value="Hulk">Consumer Electronics</option>
+                          <option value="Spiderman">Apparel</option>
+                          <option value="Ironman">Vehicles & Accesories</option>
+                          <option value="Thor">Sports & Entertainment</option>
+                          <option value="Wonder Woman">Home & Garden</option>
+                        </select>
+                        <div class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title">Category<label><i class="icon f7-icons">&#42;</i></label></div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                  <div class="col-100 small-50">
+                    <li>
+                      <a class="item-link smart-select smart-select-init" data-open-in="popover">
+                        <select name="sub_cat"  id="sub_cat" required validate>
+                          <option value="Batman" selected>Batman</option>
+                          <option value="Superman">Superman</option>
+                          <option value="Hulk">Hulk</option>
+                          <option value="Spiderman">Spiderman</option>
+                          <option value="Ironman">Ironman</option>
+                          <option value="Thor">Thor</option>
+                          <option value="Wonder Woman">Wonder Woman</option>
+                        </select>
+                        <div class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title">Sub Category<label><i class="icon f7-icons">&#42;</i></label></div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </div>
+                  <div class="col-100">
+                    <li class="item-content item-input item-input-outline">
+                      <div class="item-inner">
+                        <div class="item-title">Title / Caption<label><i class="icon f7-icons">&#42;</i></label></div>
+                        <div class="item-input-wrap">
+                          <input type="text" maxlength="72" name="title" id="title" placeholder="What is the name of the product or service?" required validate>
+                          <span class="input-clear-button"></span>
+                          <div class="item-input-info text-align-right margin-right">Max Chars: 0/72</div>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-100 margin-top">
+                   <li class="item-content item-input item-input-outline">
+                    <div class="item-inner">
+                      <div class="item-title">Description<label><i class="icon f7-icons">&#42;</i></label></div>
+                      <div class="item-input-wrap">
+                        <textarea class="" maxlength="1000" name="desc" id="desc" placeholder="Enter each property on a new line by hitting enter on your keypad." required validate></textarea>
+                        <span class="input-clear-button"></span>
+                        <div class="item-input-info text-align-right">Max Chars: 0/1000</div>
+                      </div>
+                    </div>
+                   </li>
+                  </div>
+                  <div class="col-100 small-100 margin-top">
+                    <div class="row">
+                      <li class="col item-content">                        
+                        <div class="item-inner">
+                          <div class="item-title">Condition<label><i class="icon f7-icons">&#42;</i></label></div>
+                          <div class="display-flex">
+                            <label class="radio display-flex"><input type="radio" name="condition" value="new" required validate><i class="icon-radio margin-right-half"></i>New</label>
+                            <label class="radio display-flex margin-left"><input type="radio" name="condition" value="old" required validate><i class="icon-radio margin-right-half"></i>Old</label>
+                            <label class="radio display-flex margin-left"><input type="radio" name="condition" value="refurbished" required validate><i class="icon-radio margin-right-half"></i>Refurbished</label>
+                          </div>
+                        </div>
+                      </li>
+                    </div>
+                  </div>
+                  <div class="col-100 small-70 medium-50 margin-top">
+                    <div class="row">
+                      <li class="col item-content item-input item-input-outline">                        
+                        <div class="item-inner">
+                          <div class="item-title">Price<label><i class="icon f7-icons">&#42;</i></label></div>
+                          <div class="item-input-wrap">
+                            <input type="text" name="price" id="price" placeholder="How much?" required validate>
+                            <span class="input-clear-button"></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col item-content item-input item-input-outline">
+                        <div class="item-inner">
+                          <div class="item-title">&nbsp;</div>
+                          <div class="display-flex margin-top-half">
+                            <span>Negotiable</span>
+                            <label class="toggle toggle-init margin-left">
+                              <input type="checkbox">
+                              <span class="toggle-icon"></span>
+                            </label>
+                          </div>
+                        </di>
+                      </li>
+                    </div>
+                  </div>
+                  <button class="button button-large button-fill button-raised margin">Publish</button>
+                  <section class="margin-horizontal text-align-center" style="font-size: 12px; width: 100%;">By publishing an ad you agree and accept the Terms of <a href="/t_c/">Xtrasell.com</a></section>
+                </div>
+              </ul>
+            </div>
+          </form> 
+        </div>
+      </div> -->
+    </div>
+      
+  </div>
+</div>
+  

@@ -1,0 +1,33 @@
+{
+  "cwd": "C:\\xampp\\htdocs\\store.xtrasell",
+  "type": [
+    "web",
+    "cordova"
+  ],
+  "name": "store.xtrasell",
+  "pkg": "io.framework7.myapp",
+  "framework": "core",
+  "template": "tabs",
+  "bundler": false,
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen",
+      "cordova-plugin-wkwebview-engine"
+    ]
+  },
+  "theming": {
+    "customColor": true,
+    "color": "#ff00ff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}

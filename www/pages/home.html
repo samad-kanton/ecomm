@@ -1,0 +1,387 @@
+<div class="page" data-name="home">
+  <!-- Top Navbar -->
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner" style="background: #ff00ff;">
+      <div class="container justify-content-space-between display-flex align-items-center">
+        <div class="left color-white">
+          <a href="#" class="link icon-only panel-open text-color-white" data-panel="left">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
+          <a href="/" class="link color-white">Xtrasell.com</a>
+        </div>
+        <div class="searchbar margin-horizontal no-padding">
+          <form class="searchbar-inner no-padding" style="background: magenta;">
+            <div class="searchbar-input-wrap">
+              <input type="search" placeholder="What are you looking for?">
+              <i class="searchbar-icon"></i>
+              <span class="input-clear-button"></span>
+            </div>
+            <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+          </form>
+        </div>
+        <div class="right color-white">
+          <a href="#" class="padding padding-vertical-half"><i class="icon f7-icons">search</i><span>Search</span></a>
+          <a href="#" class="padding padding-vertical-half popover-open" data-popover=".popover-account"><i class="icon f7-icons">person</i><span>Account</span></a>
+          <a href="#" class="padding padding-vertical-half popover-open" data-popover=".popover-help"><i class="icon f7-icons">question_circle</i><span>Help</span></a>
+          <a href="#" class="padding padding-vertical-half"><i class="icon f7-icons">cart</i><span>Cart<sup class="badge color-theme-red" style="position: absolute; top: 0; right: 5px;">5</sup></span></a>
+
+          <div class="popover popover-account" style="width: 100px;">
+            <div class="popover-inner">
+              <div class="list">
+                <ul>
+                  <li><a class="list-button item-link" href="#">Login</a></li>
+                  <li><a class="list-button item-link" href="#">Link 2</a></li>
+                  <li><a class="list-button item-link" href="#">Link 3</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="popover popover-help" style="width: 150px;">
+            <div class="popover-inner">
+              <div class="list">
+                <ul>
+                  <li><a class="list-button item-link" href="#">FAQ</a></li>
+                  <li><a class="list-button item-link" href="#">Contact Xtrasell</a></li>
+                  <li><a class="list-button item-link" href="#">Placing Order</a></li>
+                  <li><a class="list-button item-link" href="#">Report Abuse</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Extended FAB Center Bottom (Red) -->
+  <div class="fab fab-extended fab-center-bottom">
+    <a href="/post-ad/">
+      <i class="icon f7-icons if-not-md">plus</i>
+      <i class="icon material-icons md-only">add</i>
+      <div class="fab-text">Post Ad</div>
+    </a>
+  </div>
+
+  <!-- Scrollable page content-->
+  <div class="page-content hide-toolbar-on-scroll">
+   <div class="container" id="banner">
+    <!-- <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="10" data-slides-per-view="3" class="swiper-container swiper-init demo-swiper">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">Slide 10</div>
+      </div>
+    </div> -->
+    <div id="banner_cats">
+      <div id="cats">
+        <p id="title" class="padding no-margin" style="background: #f7f5ff;">Categories</p>
+        <div class="list no-margin">
+          <ul>
+            <li>
+              <a class="item-link item-content">
+                <div class="item-media"><i class="icon f7-icons"><img src="./assets/img/cats/property.svg" alt="" width="30px" height="30px"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Property</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-link item-content">
+                <div class="item-media"><i class="icon f7-icons"><img src="./assets/img/cats/jobs.svg" alt="" width="30px" height="30px"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Jobs</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-link item-content">
+                <div class="item-media"><i class="icon f7-icons"><img src="./assets/img/cats/electronics.svg" alt="" width="30px" height="30px"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Consumer Electronics</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-link item-content">
+                <div class="item-media"><i class="icon f7-icons"><img src="./assets/img/cats/apparel.svg" alt="" width="30px" height="30px"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Apparel</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-link item-content">
+                <div class="item-media"><i class="icon f7-icons"><img src="./assets/img/cats/vehicles_accessories.svg" alt="" width="30px" height="30px"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Vehicles & Accesories</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-link item-content">
+                <div class="item-media"><i class="icon f7-icons"><img src="./assets/img/cats/sports_entertainment.svg" alt="" width="30px" height="30px"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Sports & Entertainment</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="item-link item-content">
+                <div class="item-media"><i class="icon f7-icons"><img src="./assets/img/cats/home_garden.svg" alt="" width="30px" height="30px"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Home & Garden</div>
+                </div>
+              </a>
+            </li>
+            <!-- <li>
+              <a class="item-link item-content">
+                <div class="item-media"><i class="icon f7-icons">laptop</i></div>
+                <div class="item-inner">
+                  <div class="item-title">All Categories</div>
+                </div>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <!-- <div id="banner" style="width: 100%;">         -->
+        <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50" class="swiper-container swiper-init swiper">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./assets/img/computer-2982270_960_720.png" alt="" width="100%" height="388px"></div>
+            <div class="swiper-slide"><img src="./assets/img/cup-of-coffee-1280537__340.png" alt="" width="100%" height="388px"></div>
+            <div class="swiper-slide"><img src="./assets/img/apparel-1850804_960_720.png" alt="" width="100%" height="388px"></div>            
+            <div class="swiper-slide"><img src="./assets/img/children-593313_960_720.png" alt="" width="100%" height="388px"></div>
+            <div class="swiper-slide"><img src="./assets/img/electronics-820272_960_720.png" alt="" width="100%" height="388px"></div>
+          </div>
+        </div>
+      <!-- </div> -->
+      <!-- <div class="col-20">
+        
+      </div> -->
+    </div>
+  </div>
+
+    <!-- <div class="block-title">Modals</div>
+    <div class="block block-strong">
+      <div class="row">
+        <div class="col-50">
+          <a href="#" class="button button-raised button-fill popup-open" data-popup="#my-popup">Popup</a>
+        </div>
+        <div class="col-50">
+          <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen">Login Screen</a>
+        </div>
+      </div>
+    </div> -->
+
+    <footer class="margin-top padding-horizontal-half">
+      <div id="top">
+        <div class="container">
+          <div class="row">
+            <section class="col-25 medium-20">
+              <p class="title">
+                <h1>Xtrasell.com</h1>
+              </p>
+            </section>
+            <section class="col-100 small-75 medium-50">
+              <p class="title">
+                Subscribe to 
+                <br/>Be the first to reecieve latest and exciting new offers!
+              </p>
+              <div class="list no-hairlines no-margin margin-bottom">
+                <ul>
+                  <li class="item-content item-input item-input-outline no-padding" style="display: grid; grid-template-columns: 1fr auto; background: #f7f5ff;">
+                    <div class="item-inner">
+                        <div class="item-input-wrap" style="position: relative;">
+                          <input type="text" name="main_cat" id="main_cat" placeholder="Your email" style="padding-left: 40px;">
+                          <span class="input-clear-button"></span>
+                          <i class="icon f7-icons" style="position: absolute; top: 5px; left: 5px; transform: translate(0, 0); color: rgb(247, 171, 247);">envelope</i>
+                        </div>
+                    </div>
+                    <button type="button" class="button button-outline"><i class="icon f7-icons">arrow_right</i></button>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="col-100 small-30">
+              <p class="title">
+                Download our Mobile App.
+                <br/>Shop FASTER, Buy SMARTER
+              </p>
+              <div class="row">
+                <div class="col">
+                  <button type="button" class="button button-fill color-theme-green margin-top-half display-flex align-items-center" style="--f7-button-height: 40px;"><i class="icon f7-icons">logo_android</i></button>
+                </div>
+                <div class="col">
+                  <button type="button" class="button button-fill margin-top-half color-theme-gray display-flex align-items-center" style="--f7-button-height: 40px;"><i class="icon f7-icons">logo_apple</i></button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div id="middle">
+        <div class="container">
+          <div class="row">
+             <section class="col-33 medium-33">
+              <p>HELP & SUPPORT</p>
+              <div class="list no-hairlines no-margin margin-bottom">
+                <ul>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">FAQ</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Contact Us</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Buy & Sell On Xtrasell</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Order & Delivery</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="col-33 medium-33">
+              <p>ABOUT XTRASELL</p>
+              <div class="list no-hairlines no-margin margin-bottom">
+                <ul>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">About Us</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Careers</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Terms & Conditions</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Privacy Policy</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="col-33 medium-33">
+              <p>HOW TO</p>
+              <div class="list no-hairlines no-margin margin-bottom">
+                <ul>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Buy on Xtrasell</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Sell on Xtrasell</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Buy on Xtrasell</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>     
+        </div>  
+      </div>
+      <div id="bottom">
+        <div class="container">
+          <div class="row">
+            <section class="col small-25">
+              <p>Join Us</p>
+              <div class="list no-hairlines no-margin margin-bottom">
+                <ul>
+                  <div class="row" style="background: #f7f5ff; color: #777777;;">
+                    <li class="col">
+                      <div class="row">
+                        <a class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title"><i class="icon f7-icons" style="color: #3b5998;">logo_facebook</i></div>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="col">
+                      <div class="row">
+                        <a class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title"><i class="icon f7-icons" style="color: #1da1f2;">logo_twitter</i></div>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="col">
+                      <div class="row">
+                        <a class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title"><i class="icon f7-icons" style="color: #c32aa3;">logo_instagram</i></div>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                  </div>
+                </ul>
+              </section>
+              <section class="col small-25 text-align-center">
+                <p>Powered By</p>
+                <a href="https://www.softitgh.com" class="link">Soft IT Gh</a>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</div>

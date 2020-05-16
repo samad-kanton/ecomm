@@ -1,0 +1,29 @@
+{
+  "name": "jQuery-jsScroll",
+  "version": "1.0.0",
+  "description": "A jQuery plugin that transforms any div into a scrollable area with a  scrollbar.",
+  "main": "jQuery-jsScroll.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjsh36/jQuery-jsScroll.git"
+  },
+  "keywords": ["scrollbar", "scroll", "jsscroll", "horizontal", "scrollable", "scrolling", "jquery-plugin"],
+  "author": {
+    "name": "chenjsh36",
+    "url": "http://chenjsh.cn/blog"
+    },
+  "licenses": [    
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    {
+      "type": "GPL",
+      "url": "http://www.opensource.org/licenses/gpl-license.php"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/chenjsh36/jQuery-jsScroll/issues"
+  },
+  "homepage": "https://github.com/chenjsh36/jQuery-jsScroll#readme"
+}
